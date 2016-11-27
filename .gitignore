@@ -17,3 +17,7 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 cabal.project.local
+_cache/
+site
+site.hi
+site.o
