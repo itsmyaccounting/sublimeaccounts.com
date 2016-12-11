@@ -1,0 +1,13 @@
+<div class="posts">
+    $for(posts)$
+        <div class="post py3">
+            $if(date)$<p class="post-meta">$date$</p>$endif$
+            <a href="$url$" class="post-link"><h3 class="h1 post-title">$title$</h3></a>
+            $if(teaser)$
+            <p class="post-summary">
+                 $teaser$
+            </p>
+            $endif$
+        </div>
+    $endfor$
+</div>
